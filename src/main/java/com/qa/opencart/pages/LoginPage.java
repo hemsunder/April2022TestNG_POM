@@ -20,6 +20,7 @@ public class LoginPage {
 	private By register_Lnk = By.linkText("Register");
 	private By logoutSuccess_msg = By.cssSelector("div#common-success h1");
 	private By logoutContinue_Btn = By.linkText("Continue");
+	private By logoutContinue_Btn2 = By.linkText("Continue");
 	
 	public LoginPage(WebDriver driver) {
 		this.driver = driver;
